@@ -1,0 +1,12 @@
+img{
+    width: 100%;
+    border-radius: 28px;
+}
+
+#city-description img{
+    height: 660px;
+}
+
+#page{
+    width: 1120px;
+}
