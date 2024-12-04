@@ -13,6 +13,8 @@
 
 body{
     background-color: #F5F4F0;
+    width: 1280px;
+    height: 3279px;
 } 
 
 img{
@@ -44,7 +46,7 @@ img{
 
 #page{
     width: 1120px;
-    margin: 88px 80px; 
+    margin: 88px 80px 80px 137px; 
     background-color: #F5F4F0;
 }
 
@@ -80,6 +82,7 @@ h3{
 main > p{
     text-align: center;
     margin-top: 40px;
+
 }
 
 
@@ -124,4 +127,16 @@ ul{
 
 .fourth-color{
     color: #E95E10;
+}
+
+footer{
+    text-align: center;
+    padding-bottom: 48px;
+    padding-top: 65px;
+}
+
+footer img{
+    width: 14px;
+    height: 12px;
+    vertical-align: middle;
 }
