@@ -1,3 +1,7 @@
+:root{
+    font-family: "Open Sans", sans-serif;
+}
+
 body{
     background-color: #F5F4F0;
 } 
@@ -28,7 +32,30 @@ img{
 
 #page{
     width: 1120px;
-    margin: 88px 80px 80px 137px;
+    margin: 88px 80px; 
     background-color: #F5F4F0;
+}
+
+h1, h2, h3, .headline{
+    font-weight: bold;
+}
+
+h1{
+    font-size: 36px;
+    color: #1B1B1B;
+}
+
+h2{
+    font-size: 32px;
+    color: #1B1B1B;
+}
+
+h3{
+    font-size: 28px;
+    color: #1B1B1B;
+}
+
+.headline{
+    color: #E1624F;
 }
 
