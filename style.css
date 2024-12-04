@@ -3,10 +3,12 @@
     margin: 0px;
     box-sizing: border-box;
 }
+
 :root{
     font-family: "Open Sans", sans-serif;
     color: #333333;
     font-weight: normal;
+    /* por padrão todas que não tiveram tamanho setado vão ter tamanho igual a 16px */
 }
 
 body{
@@ -26,6 +28,7 @@ img{
 .card img{
     height: 350px;
     object-fit: cover;
+    margin-bottom: 20px;
 }
 
 .headline{
@@ -47,23 +50,22 @@ img{
 
 h1, h2, h3, .headline{
     font-weight: bold;
+    color: #1B1B1B;
 }
 
 h1{
     font-size: 36px;
     margin-top: 8px;
-    color: #1B1B1B;
 }
 
 h2{
     font-size: 32px;
-    color: #1B1B1B;
     margin-top: 2px;
 }
 
 h3{
     font-size: 28px;
-    color: #1B1B1B;
+    margin-bottom: 4px;
 }
 
 .headline{
